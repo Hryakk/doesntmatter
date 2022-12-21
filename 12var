@@ -1,0 +1,5 @@
+def obr(st,sym):
+    s = st.split(sym)[0]
+    return s 
+
+print(obr('apples #bananas , apples! banabas','#')
